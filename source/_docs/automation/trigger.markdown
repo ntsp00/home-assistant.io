@@ -40,7 +40,7 @@ automation:
     - platform: mqtt
       topic: "living_room/switch/ac"
       id: "ac_on"
-    - platform: state  # This trigger will be assigned id="2"
+    - platform: state  # This trigger will be assigned id="3"
       entity_id:
         - device_tracker.paulus
         - device_tracker.anne_therese
